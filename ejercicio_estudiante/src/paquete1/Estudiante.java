@@ -1,4 +1,5 @@
 package paquete1;
+import java.util.Arrays;
 
 public class Estudiante {
 
@@ -25,5 +26,11 @@ public class Estudiante {
         }
         System.out.println();
     }
-}
 
+    @Override
+    public String ToString(){
+        return "Nombre: " + nombre +
+                "\nCarrera: " + carrera +
+                "\nMaterias: " + Arrays.toString(materias);
+    } 
+}
