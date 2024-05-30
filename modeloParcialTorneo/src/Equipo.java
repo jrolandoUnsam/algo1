@@ -87,5 +87,9 @@ public class Equipo {
         return golesRecibidos;
     }
 
+    public int getFans() {
+        return fans;
+    }   
+
 }
    
